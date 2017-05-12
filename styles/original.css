@@ -103,3 +103,35 @@ footer form {
   margin-left: 2rem;
   display: inline;
 }
+
+@media screen and (min-width: 700px) {
+    body {
+        background-color: black;
+    }
+}
+@media print {
+    nav {
+      display:none;
+    }
+
+}
+@media only screen and (max-width:959px){
+  h1{
+    font-size: 1.5em;
+
+  }
+  body{
+    width:80%;
+  }
+}
+
+
+@media (min-width: @screen-sm-min) {
+  html{
+    background-color:blue;
+  }
+}
+
+
+
+@media (min-width: @screen-md-min) { ... }
